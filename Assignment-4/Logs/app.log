@@ -1,0 +1,7 @@
+[ 2025-11-26 19:17:16,967 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-26 19:17:16,967 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-26 19:17:26,075 ] root - INFO - 'Recognizer' object has no attribute 'reconize_google'
+[ 2025-11-26 19:18:10,853 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-26 19:18:10,853 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-26 19:30:13,735 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-26 19:30:13,735 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
