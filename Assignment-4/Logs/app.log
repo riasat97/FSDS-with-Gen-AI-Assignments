@@ -5,3 +5,66 @@
 [ 2025-11-26 19:18:10,853 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
 [ 2025-11-26 19:30:13,735 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
 [ 2025-11-26 19:30:13,735 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-27 19:12:01,345 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-27 19:12:01,345 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-27 19:13:00,985 ] root - INFO - User exited the Program
+[ 2025-11-27 19:13:04,786 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-27 19:13:04,786 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-27 19:13:22,936 ] root - INFO - 
+[ 2025-11-27 19:13:35,330 ] root - INFO - 
+[ 2025-11-27 19:13:48,663 ] root - INFO - User exited the Program
+[ 2025-11-27 19:14:00,751 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-27 19:14:00,752 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-27 19:14:14,240 ] root - INFO - 
+[ 2025-11-27 19:14:19,557 ] root - INFO - 
+[ 2025-11-27 19:14:23,145 ] root - INFO - 
+[ 2025-11-27 19:14:32,123 ] root - INFO - 
+[ 2025-11-27 19:14:37,484 ] root - INFO - 
+[ 2025-11-27 19:14:42,070 ] root - INFO - 
+[ 2025-11-27 19:14:45,833 ] root - INFO - 
+[ 2025-11-27 19:14:49,810 ] root - INFO - 
+[ 2025-11-27 19:15:03,805 ] root - INFO - User exited the Program
+[ 2025-11-27 19:15:10,285 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-27 19:15:10,285 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-27 19:15:34,058 ] root - INFO - User exited the Program
+[ 2025-11-27 19:15:38,388 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-27 19:15:38,388 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-27 19:15:58,992 ] root - INFO - User exited the Program
+[ 2025-11-27 19:16:01,786 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-27 19:16:01,786 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-27 19:16:20,913 ] root - INFO - User exited the Program
+[ 2025-11-27 19:16:38,814 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-27 19:16:38,814 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-27 19:18:25,627 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-27 19:18:25,627 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-27 19:20:15,209 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-27 19:20:15,209 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-27 19:20:33,834 ] root - INFO - User asked for the current time.
+[ 2025-11-27 19:20:54,779 ] root - INFO - User exited the Program
+[ 2025-11-27 19:24:22,816 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-27 19:24:22,816 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-27 19:24:40,355 ] root - INFO - User asked for the current time.
+[ 2025-11-27 19:24:58,063 ] root - INFO - User exited the Program
+[ 2025-11-27 19:25:04,925 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-27 19:25:04,925 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-27 19:30:22,308 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-27 19:30:22,308 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-27 19:30:55,734 ] root - INFO - User requested info from WIKI.
+[ 2025-11-27 19:35:25,077 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-27 19:35:25,077 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-27 19:37:47,678 ] root - INFO - User requested info from WIKI.
+[ 2025-11-27 19:45:03,914 ] root - INFO - 
+[ 2025-11-27 19:45:16,639 ] root - INFO - 
+[ 2025-11-27 19:45:39,760 ] root - INFO - 
+[ 2025-11-27 19:45:55,939 ] root - INFO - 
+[ 2025-11-27 19:46:03,615 ] root - INFO - 
+[ 2025-11-27 19:46:09,750 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-27 19:46:09,750 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-27 19:47:26,259 ] root - INFO - 
+[ 2025-11-27 19:48:31,260 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-27 19:48:31,260 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-27 19:49:00,388 ] root - ERROR - Wiki Error: An unknown error occured: "The "srsearch" parameter must be set.". Please report it on GitHub!
+[ 2025-11-27 19:49:33,108 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-27 19:49:33,108 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-27 19:50:11,891 ] root - INFO - User requested info from WIKI.
+[ 2025-11-27 19:50:36,113 ] root - INFO - 

@@ -8,6 +8,7 @@ import webbrowser
 import subprocess
 import random
 import logging
+import re
 
 #Log Configuration
 LOG_DIR="Logs"
@@ -69,8 +70,75 @@ def greeting():
     print(greeting)
     speak(greeting)
 
+# Level 2: The Worker (Automation Tasks)
+# Tell Time: Command: "What time is it?" -> Jarvis replies with the current time.
+# Wikipedia Search: Command: "Wikipedia [topic]" -> Jarvis reads the first 2 sentences of the summary
+#from Wikipedia.
+#Web Browser Automation:
+# o "Open YouTube" -> Opens YouTube in the default browser.
+# o "Open Google" -> Opens Google.
+# o "Open LinkedIn" -> Opens the student's LinkedIn profile.
+
+def get_current_time():
+    now=datetime.now()
+    str_time= now.strftime("%I:%M %p")
+    return str_time
+
 if __name__== "__main__":
  greeting()   
- speak("Hello! I am Jervis. I can Speak what ever is written")
- query=take_command().lower()
- print(query)
+ speak("I am Jervis. I can Speak what ever is written")
+ while True:
+    query=take_command().lower()
+    if not query: continue
+    print(query)
+    #pattern = r"\b(exit|bye|quit)\b"
+    match(query):
+        case _ if "time" in query:
+            current_time=get_current_time()
+            print(f"Sir the current time is {current_time}")
+            speak(f"Sir the current time is {current_time}")
+            logging.info("User asked for the current time.")
+        case _ if any( x in query for x in ['bye','exit','quit']):
+            #query.startswith(("exit", "bye", "quit")):
+            #re.search(pattern, query):
+            speak("Thank you Sir. Have a nice day.")
+            logging.info("User exited the Program")
+            exit()
+        case _ if "wikipedia" in query:
+            speak("Searching WIKI.....")
+            query= query.replace("wikipedia","").strip()
+            if not query:
+                speak("What would you like me to search for on Wikipedia?")
+                query = take_command().lower()
+                if not query or "none" in query: 
+                    speak("Okay, cancelling search.")
+                    continue
+            try:
+                res= wikipedia.summary(query,sentences=2)
+                speak("According to WIKI")
+                speak(res)
+                logging.info("User requested info from WIKI.")
+            except wikipedia.exceptions.PageError:
+                speak("I could not find any page matching that topic.")
+                logging.warning(f"Wiki Page Not Found: {query}")    
+            except Exception as e:
+                speak('An error occurred while fetching the data.')
+                logging.error(f"Wiki Error: {e}")
+        case _ if "youtube" in query:
+            speak("Opening YouTube")
+            query = query.replace("youtube", "").strip()
+            webbrowser.open(f"https://www.youtube.com/results?search_query={query}")
+            logging.info("User opened YouTube.")
+        case _ if "google" in query:
+            speak("Opening Google") 
+            webbrowser.open("https://www.google.com")
+            logging.info("User opened Google.") 
+        case _ if "linkedin" in query:
+            speak("Opening LinkedIn")
+            webbrowser.open("https://www.linkedin.com/in/riasat-raihan")  # Replace with actual profile URL
+            logging.info("User opened LinkedIn.")       
+
+        case _:
+            speak("I am sorry Sir, I am not trained to do this task yet.")
+
+
