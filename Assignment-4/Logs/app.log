@@ -72,3 +72,307 @@
 [ 2025-11-27 19:54:14,288 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
 [ 2025-11-27 19:54:29,364 ] root - INFO - User opened YouTube.
 [ 2025-11-27 19:54:47,313 ] root - INFO - User opened YouTube.
+[ 2025-11-27 19:58:58,850 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-27 19:58:58,850 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-27 19:59:14,778 ] root - INFO - User opened LinkedIn.
+[ 2025-11-28 01:29:23,165 ] root - INFO - recognition connection failed: [Errno 11001] getaddrinfo failed
+[ 2025-11-30 20:40:52,656 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-30 20:40:52,656 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-30 20:41:18,973 ] root - INFO - User opened Google.
+[ 2025-11-30 20:41:32,307 ] root - INFO - User opened Google.
+[ 2025-11-30 20:41:55,357 ] root - ERROR - Error opening browser: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7625ca235
+	0x7ff762322630
+	0x7ff7620b16dd
+	0x7ff76209d205
+	0x7ff7620c2a8a
+	0x7ff76213a476
+	0x7ff76215b3d2
+	0x7ff7620fb0ed
+	0x7ff7620fbf63
+	0x7ff7625f5d60
+	0x7ff7625efe8a
+	0x7ff762611005
+	0x7ff76233d71e
+	0x7ff762344e1f
+	0x7ff76232b7c4
+	0x7ff76232b97f
+	0x7ff7623118e8
+	0x7ffb5dc8e8d7
+	0x7ffb5e86c53c
+
+[ 2025-11-30 20:41:57,936 ] root - INFO - User opened Google.
+[ 2025-11-30 20:42:10,288 ] root - ERROR - Error opening browser: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7625ca235
+	0x7ff762322630
+	0x7ff7620b14e5
+	0x7ff7620fa151
+	0x7ff762132a12
+	0x7ff76212d27c
+	0x7ff76212c46a
+	0x7ff76207acb5
+	0x7ff7625f5d60
+	0x7ff7625efe8a
+	0x7ff762611005
+	0x7ff76233d71e
+	0x7ff762344e1f
+	0x7ff76207977b
+	0x7ff7627445f8
+	0x7ffb5dc8e8d7
+	0x7ffb5e86c53c
+
+[ 2025-11-30 20:42:12,845 ] root - INFO - User opened LinkedIn.
+[ 2025-11-30 20:43:20,790 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-30 20:43:20,790 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-30 20:43:45,045 ] root - INFO - User opened YouTube.
+[ 2025-11-30 20:43:52,108 ] root - ERROR - Error opening browser: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7625ca235
+	0x7ff762322630
+	0x7ff7620b16dd
+	0x7ff76209d205
+	0x7ff7620c2a8a
+	0x7ff76213a476
+	0x7ff76215b3d2
+	0x7ff7620fb0ed
+	0x7ff7620fbf63
+	0x7ff7625f5d60
+	0x7ff7625efe8a
+	0x7ff762611005
+	0x7ff76233d71e
+	0x7ff762344e1f
+	0x7ff76232b7c4
+	0x7ff76232b97f
+	0x7ff7623118e8
+	0x7ffb5dc8e8d7
+	0x7ffb5e86c53c
+
+[ 2025-11-30 20:43:54,645 ] root - INFO - User opened LinkedIn.
+[ 2025-11-30 20:44:06,630 ] root - ERROR - Error opening browser: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7625ca235
+	0x7ff762322630
+	0x7ff7620b14e5
+	0x7ff7620fa151
+	0x7ff762132a12
+	0x7ff76212d27c
+	0x7ff76212c46a
+	0x7ff76207acb5
+	0x7ff7625f5d60
+	0x7ff7625efe8a
+	0x7ff762611005
+	0x7ff76233d71e
+	0x7ff762344e1f
+	0x7ff76207977b
+	0x7ff7627445f8
+	0x7ffb5dc8e8d7
+	0x7ffb5e86c53c
+
+[ 2025-11-30 20:44:09,195 ] root - INFO - User opened YouTube.
+[ 2025-11-30 20:44:19,081 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-30 20:44:19,081 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-30 20:44:42,364 ] root - INFO - User opened YouTube.
+[ 2025-11-30 20:44:56,924 ] root - INFO - User opened LinkedIn.
+[ 2025-11-30 20:45:20,569 ] root - INFO - User opened YouTube.
+[ 2025-11-30 20:45:38,858 ] root - INFO - User opened YouTube.
+[ 2025-11-30 20:47:59,975 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-30 20:47:59,975 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-30 20:48:26,813 ] root - INFO - User opened YouTube.
+[ 2025-11-30 20:48:35,784 ] root - INFO - User opened LinkedIn.
+[ 2025-11-30 20:49:29,178 ] root - INFO - User requested info from WIKI.
+[ 2025-11-30 20:50:07,383 ] root - INFO - Closed linkedin tab
+[ 2025-11-30 20:50:07,386 ] root - INFO - User closed LinkedIn tab.
+[ 2025-11-30 20:50:15,405 ] root - ERROR - Error opening browser: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=142.0.7444.176)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7625ca235
+	0x7ff762322630
+	0x7ff7620b16dd
+	0x7ff762088e31
+	0x7ff76213a22e
+	0x7ff76215b3d2
+	0x7ff7620fb0ed
+	0x7ff7620fbf63
+	0x7ff7625f5d60
+	0x7ff7625efe8a
+	0x7ff762611005
+	0x7ff76233d71e
+	0x7ff762344e1f
+	0x7ff76232b7c4
+	0x7ff76232b97f
+	0x7ff7623118e8
+	0x7ffb5dc8e8d7
+	0x7ffb5e86c53c
+
+[ 2025-11-30 20:50:17,945 ] root - INFO - User opened Google.
+[ 2025-11-30 20:50:33,864 ] root - INFO - Closed youtube tab
+[ 2025-11-30 20:50:33,960 ] root - ERROR - Error closing tab: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7625ca235
+	0x7ff762322630
+	0x7ff7620b14e5
+	0x7ff7620fa151
+	0x7ff762132a12
+	0x7ff76212d27c
+	0x7ff76212c46a
+	0x7ff76207acb5
+	0x7ff7625f5d60
+	0x7ff7625efe8a
+	0x7ff762611005
+	0x7ff76233d71e
+	0x7ff762344e1f
+	0x7ff76207977b
+	0x7ff7627445f8
+	0x7ffb5dc8e8d7
+	0x7ffb5e86c53c
+
+[ 2025-11-30 20:50:36,832 ] root - INFO - User closed YouTube tab.
+[ 2025-11-30 20:50:43,573 ] root - ERROR - Error opening browser: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7625ca235
+	0x7ff762322630
+	0x7ff7620b14e5
+	0x7ff7620fa151
+	0x7ff762132a12
+	0x7ff76212d27c
+	0x7ff76212c46a
+	0x7ff76207acb5
+	0x7ff7625f5d60
+	0x7ff7625efe8a
+	0x7ff762611005
+	0x7ff76233d71e
+	0x7ff762344e1f
+	0x7ff76207977b
+	0x7ff7627445f8
+	0x7ffb5dc8e8d7
+	0x7ffb5e86c53c
+
+[ 2025-11-30 20:50:46,150 ] root - INFO - User opened Google.
+[ 2025-11-30 20:50:57,190 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-30 20:50:57,190 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-30 20:51:17,644 ] root - INFO - User opened Google.
+[ 2025-11-30 20:51:31,930 ] root - INFO - User opened LinkedIn.
+[ 2025-11-30 20:51:41,616 ] root - INFO - Browser closed
+[ 2025-11-30 20:51:41,616 ] root - INFO - User closed Chrome browser.
+[ 2025-11-30 20:51:52,382 ] root - INFO - User opened Google.
+[ 2025-11-30 20:52:05,337 ] root - INFO - User opened LinkedIn.
+[ 2025-11-30 20:52:17,272 ] root - INFO - Closed linkedin tab
+[ 2025-11-30 20:52:17,277 ] root - INFO - User closed LinkedIn tab.
+[ 2025-11-30 20:52:23,874 ] root - ERROR - Error opening browser: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=142.0.7444.176)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7625ca235
+	0x7ff762322630
+	0x7ff7620b16dd
+	0x7ff762088e31
+	0x7ff76213a22e
+	0x7ff76215b3d2
+	0x7ff7620fb0ed
+	0x7ff7620fbf63
+	0x7ff7625f5d60
+	0x7ff7625efe8a
+	0x7ff762611005
+	0x7ff76233d71e
+	0x7ff762344e1f
+	0x7ff76232b7c4
+	0x7ff76232b97f
+	0x7ff7623118e8
+	0x7ffb5dc8e8d7
+	0x7ffb5e86c53c
+
+[ 2025-11-30 20:52:26,442 ] root - INFO - User opened YouTube.
+[ 2025-11-30 20:53:06,912 ] root - ERROR - Error opening browser: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=142.0.7444.176)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7625ca235
+	0x7ff762322630
+	0x7ff7620b16dd
+	0x7ff762088e31
+	0x7ff76213a22e
+	0x7ff76215b3d2
+	0x7ff7620fb0ed
+	0x7ff7620fbf63
+	0x7ff7625f5d60
+	0x7ff7625efe8a
+	0x7ff762611005
+	0x7ff76233d71e
+	0x7ff762344e1f
+	0x7ff76232b7c4
+	0x7ff76232b97f
+	0x7ff7623118e8
+	0x7ffb5dc8e8d7
+	0x7ffb5e86c53c
+
+[ 2025-11-30 20:53:09,556 ] root - INFO - User opened YouTube.
+[ 2025-11-30 20:54:59,248 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-30 20:54:59,248 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-30 20:55:26,224 ] root - INFO - User opened YouTube.
+[ 2025-11-30 20:55:38,773 ] root - INFO - User opened Google.
+[ 2025-11-30 20:55:51,399 ] root - INFO - User opened LinkedIn.
+[ 2025-11-30 20:55:58,124 ] root - INFO - Closed linkedin tab
+[ 2025-11-30 20:55:58,126 ] root - INFO - User closed LinkedIn tab.
+[ 2025-11-30 20:56:04,516 ] root - INFO - Closed youtube tab
+[ 2025-11-30 20:56:04,522 ] root - INFO - User closed YouTube tab.
+[ 2025-11-30 20:56:13,181 ] root - INFO - Browser closed
+[ 2025-11-30 20:56:13,181 ] root - INFO - User closed Chrome browser.
+[ 2025-11-30 20:56:30,244 ] root - INFO - User opened YouTube.
+[ 2025-11-30 20:58:59,317 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-30 20:58:59,317 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-30 21:06:01,731 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-30 21:06:01,731 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-30 21:06:01,838 ] root - WARNING - GEMINI_API_KEY environment variable not set
+[ 2025-11-30 21:07:09,672 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-30 21:07:09,672 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-30 21:07:09,781 ] root - WARNING - GEMINI_API_KEY environment variable not set
+[ 2025-11-30 21:08:28,277 ] root - INFO - User asked for others question
+[ 2025-11-30 21:08:44,548 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-30 21:08:44,548 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-30 21:09:20,399 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-30 21:09:20,399 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-30 21:09:20,510 ] root - WARNING - GEMINI_API_KEY environment variable not set
+[ 2025-11-30 21:11:35,842 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-30 21:11:35,842 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-30 21:12:18,856 ] root - INFO - User asked for others question
+[ 2025-11-30 21:12:28,144 ] root - INFO - User asked for the current time.
+[ 2025-11-30 21:13:24,934 ] root - INFO - User requested info from WIKI.
+[ 2025-11-30 21:13:44,456 ] root - INFO - User opened YouTube.
+[ 2025-11-30 21:13:58,701 ] root - INFO - User opened Google.
+[ 2025-11-30 21:14:17,630 ] root - INFO - User opened LinkedIn.
+[ 2025-11-30 21:14:24,692 ] root - INFO - Closed linkedin tab
+[ 2025-11-30 21:14:24,695 ] root - INFO - User closed LinkedIn tab.
+[ 2025-11-30 21:14:31,420 ] root - INFO - Closed youtube tab
+[ 2025-11-30 21:14:31,421 ] root - INFO - User closed YouTube tab.
+[ 2025-11-30 21:14:40,217 ] root - INFO - Browser closed
+[ 2025-11-30 21:14:40,217 ] root - INFO - User closed Chrome browser.
+[ 2025-11-30 21:14:50,566 ] root - INFO - User exited the Program
+[ 2025-11-30 21:20:19,651 ] comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\riasa\\.conda\\envs\\jarvis\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+[ 2025-11-30 21:20:19,651 ] comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\riasa\.conda\envs\jarvis\Lib\site-packages\comtypes\gen'
+[ 2025-11-30 21:20:39,050 ] root - INFO - User asked for the current time.
+[ 2025-11-30 21:21:21,693 ] root - INFO - User requested info from WIKI.
+[ 2025-11-30 21:21:37,800 ] root - INFO - User opened Google.
+[ 2025-11-30 21:22:01,287 ] root - INFO - User asked for others question
+[ 2025-11-30 21:22:14,557 ] root - INFO - User opened LinkedIn.
+[ 2025-11-30 21:22:37,722 ] root - INFO - User asked for others question
+[ 2025-11-30 21:22:45,413 ] root - INFO - Closed linkedin tab
+[ 2025-11-30 21:22:45,418 ] root - INFO - User closed LinkedIn tab.
+[ 2025-11-30 21:22:55,068 ] root - INFO - Browser closed
+[ 2025-11-30 21:22:55,068 ] root - INFO - User closed Chrome browser.
+[ 2025-11-30 21:23:10,976 ] root - INFO - User exited the Program
