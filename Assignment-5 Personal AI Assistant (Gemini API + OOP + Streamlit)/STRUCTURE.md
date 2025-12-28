@@ -1,48 +1,57 @@
-# JARVIS Project Structure
+# Project Structure
 
 ## Directory Layout
 
 ```
-Assignment-5 Personal AI Assistant/
-├── .env                          # Environment variables (API keys)
-├── requirements.txt              # Python dependencies
-├── app.py                        # Main Streamlit app
+.
+├── .env                      # Environment variables (API keys)
+├── app.py                    # Streamlit UI entrypoint
+├── requirements.txt          # Python dependencies
+├── README.md                 # Project overview + run instructions
+├── STRUCTURE.md              # This file
 │
-├── jarvis/                       # Main JARVIS package
-│   ├── __init__.py              # Package initialization
-│   ├── gemini_engine.py         # Gemini API communication
-│   ├── prompt_controller.py     # Role-based prompts
-│   ├── memory.py                # Conversation memory
-│   └── assistant.py             # Main JARVIS class
+├── config/                   # Configuration package
+│   ├── __init__.py
+│   └── settings.py           # Loads .env + shared settings/constants
 │
-├── config/                       # Configuration package
-│   ├── __init__.py              # Package initialization
-│   └── settings.py              # Settings and env management
+├── jarvis/                   # Core assistant package (OOP)
+│   ├── __init__.py
+│   ├── assistant.py          # Orchestrates prompt → Gemini → memory
+│   ├── errors.py             # Custom error types (quota, request failures, etc.)
+│   ├── gemini_engine.py      # Gemini API wrapper
+│   ├── logger.py             # Logging setup (logs/jarvis.log)
+│   ├── memory.py             # Persistent conversation memory (data/memory.json)
+│   ├── prompt_controller.py  # Roles + prompt formatting
+│   ├── speech_to_text.py     # Mic speech-to-text (basic)
+│   └── text_to_speech.py     # Spoken reply (basic)
 │
-└── data/                         # Data storage
-    └── (conversation history, memory files)
+├── data/
+│   └── memory.json           # Conversation history (auto-created/updated)
+│
+└── logs/
+    └── jarvis.log            # Runtime logs (auto-created)
 ```
 
-## File Descriptions
+## Module Responsibilities (Quick Reference)
 
-| File | Purpose |
-|------|---------|
-| `config/settings.py` | Load and manage API keys, model settings, and constants |
-| `jarvis/gemini_engine.py` | Handle Gemini API calls and responses |
-| `jarvis/prompt_controller.py` | Manage different assistant roles (Tutor, Coder, etc.) |
-| `jarvis/memory.py` | Save/load conversation history |
-| `jarvis/assistant.py` | Orchestrate all components into main JARVIS assistant |
-| `app.py` | Streamlit web interface |
+| Module | Responsibility |
+|---|---|
+| `app.py` | Streamlit UI: chat, roles, voice input, exports, and error display |
+| `config/settings.py` | Loads `.env` + stores model/memory configuration |
+| `jarvis/assistant.py` | Main orchestrator (history → prompt → model → save) |
+| `jarvis/prompt_controller.py` | Role-based “system prompts” + prompt assembly |
+| `jarvis/gemini_engine.py` | Gemini request/stream wrapper + error classification |
+| `jarvis/memory.py` | JSON-backed conversation persistence |
+| `jarvis/speech_to_text.py` | Speech-to-text for recorded mic audio |
+| `jarvis/text_to_speech.py` | Text-to-speech for short spoken replies |
+| `jarvis/logger.py` | Rotating file logging configuration |
+| `jarvis/errors.py` | User-friendly errors with technical details for logs |
 
-## Build Order (Step by Step)
+## High-Level Flow
 
-1. **config/settings.py** - Load environment variables
-2. **jarvis/gemini_engine.py** - Set up API communication
-3. **jarvis/prompt_controller.py** - Create role-based behaviors
-4. **jarvis/memory.py** - Implement conversation memory
-5. **jarvis/assistant.py** - Combine all components
-6. **app.py** - Build web interface
-
-## Next Steps
-
-Ready to start building? Let's begin with **Step 1: config/settings.py**
+1. User speaks or types in `app.py`.
+2. (Voice only) audio → `SpeechToText` → transcribed text.
+3. `JarvisAssistant` builds a role-based prompt using `PromptController` + recent `Memory`.
+4. `GeminiEngine` calls Gemini and returns a response (or raises a classified error).
+5. UI displays the response; optionally generates short spoken audio via `TextToSpeech`.
+6. Conversation is appended to `data/memory.json`; logs go to `logs/jarvis.log`.
